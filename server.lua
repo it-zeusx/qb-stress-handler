@@ -1,4 +1,5 @@
 local ResetStress = false
+local QBCore = exports['qb-core']:GetCoreObject()
 RegisterNetEvent('hud:server:GainStress', function(amount)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
